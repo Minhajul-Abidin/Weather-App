@@ -18,6 +18,14 @@ async function checkWeather(city) {
   document.querySelector(".wind").innerHTML = data.wind.speed + " km/hr";
 }
 
-searchBtn.addEventListener("click", ()=>{
-    checkWeather(searchBox.value);
+onload = checkWeather("Mumbai");
+
+searchBtn.addEventListener("click", () => {
+  checkWeather(searchBox.value);
+});
+
+searchBox.addEventListener("keypress", function(e){
+  if (e.key === "Enter") {
+    searchBtn.click();
+  }
 });
