@@ -89,3 +89,11 @@ body {
     font-size: 26px;
     margin-top: 6px;
 }
+
+.error{
+  text-align: left;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: none;
+}
