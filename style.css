@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(70, 162, 183);
+  background-color: rgb(21, 113, 159);
 }
 
 .card {
@@ -15,7 +15,7 @@ body {
   background: linear-gradient(135deg, #00feba, #5d548a);
   color: #fff;
   margin: 20px auto 0;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 40px 35px;
   text-align: center;
 }
@@ -71,7 +71,9 @@ body {
 .details{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col{
@@ -81,7 +83,7 @@ body {
 }
 
 .col img{
-    width: 40px;
+    width: 30px;
     margin-right: 10px;
 }
 
@@ -96,4 +98,39 @@ body {
   margin-left: 10px;
   margin-top: 10px;
   display: none;
+}
+
+@media screen and (max-width: 460px) {
+  .search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .search input {
+    border: 0;
+    outline: 0;
+    background: #ebffeb;
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    width: 0;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-size: 18px;
+  }
+  
+  .search button {
+    border: 0;
+    outline: 0;
+    background: #ebffeb;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .search button img{
+    width: 25px;
+  }
 }
