@@ -6,13 +6,12 @@
 }
 
 body {
-  background-color: #2596be;
-  background: linear-gradient(90deg,  #62cff4 35%, #3a71f2 100%);
+  background: linear-gradient(90deg,  #30acd6 35%, #3a71f2 100%);
 }
 
 .card {
   width: 90%;
-  background: linear-gradient(135deg, #00feba, #6d8a54);
+  background: linear-gradient(135deg, #03d89f, #10a5bf);
   color: #fff;
   margin: 20px auto 0;
   border-radius: 15px;
